@@ -5,7 +5,7 @@ module SimpleCrowd
     property :id, :immutable => true
     property :username, :immutable => true, :map_soap => :name
     property :description, :immutable => true
-    property :active, :immutable => true, :default => true
+    property :active, :immutable => true
     property :directory_id, :immutable => true
 
     # Assumed available attributes (with soap aliases)
